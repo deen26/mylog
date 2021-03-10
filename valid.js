@@ -8,7 +8,7 @@ var pass_error = document.getElementById('pass_error');
 
 email.addEventListener('textInput', email_Verify);
 password.addEventListener('textInput', pass_Verify);
-
+/*validation */
 function validated(){
 	if (email.value.length < 9) {
 		email.style.border = "1px solid red";
@@ -22,7 +22,7 @@ function validated(){
 		password.focus();
 		return false;
 	}
-
+/*email verification */
 }
 function email_Verify(){
 	if (email.value.length >= 8) {
