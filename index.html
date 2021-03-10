@@ -6,9 +6,9 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="container"></div>
-	<h1 class="label">User Login</h1>
-	<form class="login_form" action="home.html" method="post" name="form" onsubmit="return validated()"></form>
+	<div class="container">
+		<h1 class="label">User Login</h1>
+		<form class="login_form" action="home.html" method="post" name="form" onsubmit="return validated()">
 		<div class="font">Email or Phone</div>
 		<input autocomplete="off" type="text" name="email">
 		<div id="email_error">Please fill up your Email or Phone</div>
@@ -17,6 +17,8 @@
  		<div id="pass_error">Please fill up your Password</div>
 		<button type="submit">Login</button>
     </form>
+	</div>
+		
 	<script src="valid.js"></script>
 </body>
 </html>
