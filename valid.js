@@ -1,15 +1,15 @@
 	//Validtion Code For Inputs
 
-var email = document.forms['form']['email'];
-var password = document.forms['form']['password'];
+const email = document.forms['form']['email'];
+const password = document.forms['form']['password'];
 
-var email_error = document.getElementById('email_error');
-var pass_error = document.getElementById('pass_error');
+const email_error = document.getElementById('email_error');
+const pass_error = document.getElementById('pass_error');
 
 email.addEventListener('textInput', email_Verify);
 password.addEventListener('textInput', pass_Verify);
 /*validation */
-function validated(){
+function validated(){ 
 	if (email.value.length < 9) {
 		email.style.border = "1px solid red";
 		email_error.style.display = "block";
