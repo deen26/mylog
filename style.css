@@ -35,4 +35,6 @@ body{
 .login_form input{
 	height: 40px;
 	width: 350px;
+	padding: 0 5px;
+	font-size: 18px;
 }
