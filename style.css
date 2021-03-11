@@ -7,4 +7,6 @@ body{
 	background-size: cover;
 	align-items: center;
 	justify-content: center;
+	display: flex;
+	font-family: sans-serif;
 }
