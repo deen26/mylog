@@ -51,4 +51,7 @@ body{
 	color: white;
 	outline: none;
 	cursor: pointer;
+	font-weight: bold;
+	background: #1A237E;
+	border-radius: 3px;
 }
