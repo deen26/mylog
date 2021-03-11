@@ -18,4 +18,7 @@ body{
 	background: #dedede;
 	border-radius: 5px;
 }
-.label{}
+.label{
+	padding: 20px 130px;
+	font-size: 35px;
+}
