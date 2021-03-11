@@ -10,3 +10,7 @@ body{
 	display: flex;
 	font-family: sans-serif;
 }
+.container{
+	position: relative;
+	margin-top: 100px;
+}
