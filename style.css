@@ -37,4 +37,6 @@ body{
 	width: 350px;
 	padding: 0 5px;
 	font-size: 18px;
+	outline: none;
+	border: 1px solid silver;
 }
