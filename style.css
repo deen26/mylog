@@ -49,4 +49,6 @@ body{
 	width: 365px;
 	font-size: 20px;
 	color: white;
+	outline: none;
+	cursor: pointer;
 }
