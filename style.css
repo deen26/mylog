@@ -24,4 +24,6 @@ body{
 	font-weight: bold;
 	color: #130f40;
 }
-.login_form{}
+.login_form{
+	padding: 20px 40px;
+}
