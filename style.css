@@ -57,4 +57,6 @@ body{
 	border: 1px solid #3949AB;
 	transition: .5s;
 }
-.login_form button:hover
+.login_form button:hover{
+	
+}
