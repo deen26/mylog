@@ -64,4 +64,6 @@ body{
 .login_form #pass_error{
 	margin-top: 5px;
 	width: 345px;
+	font-size: 18px;
+	color: #C62828;
 }
