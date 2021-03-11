@@ -61,4 +61,7 @@ body{
 	background: #151c6a;
 }
 .login_form #email_error,
-.login_form #pass_error
+.login_form #pass_error{
+	margin-top: 5px;
+	width: 345px;
+}
