@@ -37,3 +37,5 @@ function validated(){
 			password.style.border = "1px solid silver";
 			pass_error.style.display = "none";
 			return true;
+		}
+	}
