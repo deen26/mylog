@@ -35,3 +35,4 @@ function validated(){
 	function pass_Verify(){
 		if (password.value.length >= 5) {
 			password.style.border = "1px solid silver";
+			pass_error.style.display = "none";
