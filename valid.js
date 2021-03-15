@@ -15,3 +15,4 @@ function validated(){
 		email.style.border = "1px solid red";
 		email_error.style.display = "block";
 		email.focus();
+		return false;
