@@ -21,3 +21,5 @@ function validated(){
 		password.style.border = "1px solid red";
 		pass_error.style.display = "block";
 		password.focus();
+		return false;
+	}
