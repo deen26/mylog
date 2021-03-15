@@ -18,3 +18,4 @@ function validated(){
 		return false;
 	}
 	if (password.value.length < 6) {
+		password.style.border = "1px solid red";
