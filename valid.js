@@ -8,3 +8,5 @@ const pass_error = document.getElementById('pass_error');
 
 email.addEventListener('textInput', email_Verify);
 password.addEventListener('textInput', pass_Verify);
+
+// Validation
