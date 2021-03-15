@@ -29,3 +29,5 @@ function validated(){
 			email.style.border = "1px solid silver";
 			email_error.style.display = "none";
 			return true;
+		}
+	}
