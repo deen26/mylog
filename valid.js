@@ -33,3 +33,4 @@ function validated(){
 	}
 	// password Verification
 	function pass_Verify(){
+		if (password.value.length >= 5) {
