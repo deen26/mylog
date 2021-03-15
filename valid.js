@@ -16,3 +16,5 @@ function validated(){
 		email_error.style.display = "block";
 		email.focus();
 		return false;
+	}
+	if (password.value.length < 6) {
