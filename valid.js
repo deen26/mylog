@@ -32,3 +32,4 @@ function validated(){
 		}
 	}
 	// password Verification
+	function pass_Verify(){
