@@ -23,3 +23,6 @@ function validated(){
 		password.focus();
 		return false;
 	}
+	// Verification
+	function email_Verify(){
+		if (email.value.length >= 8) {
