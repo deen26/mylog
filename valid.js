@@ -12,3 +12,4 @@ password.addEventListener('textInput', pass_Verify);
 // Validation
 function validated(){
 	if (email.value.length < 9) {
+		email.style.border = "1px solid red";
