@@ -10,3 +10,4 @@ email.addEventListener('textInput', email_Verify);
 password.addEventListener('textInput', pass_Verify);
 
 // Validation
+function validated(){
