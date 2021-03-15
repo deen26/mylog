@@ -7,3 +7,4 @@ const email_error = document.getElementById('email_error');
 const pass_error = document.getElementById('pass_error');
 
 email.addEventListener('textInput', email_Verify);
+password.addEventListener('textInput', pass_Verify);
